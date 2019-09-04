@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/stylesheets/mainStyle.css">
+    <link rel="stylesheet" href="/stylesheets/chatConfigStyle.css">
+    <title>Title</title>
+</head>
+<body>
+<fieldset id="chat-config">
+    <legend>Chat configuration</legend>
+    <form id="config-form">
+        <div class="config-div">
+            <div class="config-label inline">
+                <label>Chat title</label>
+            </div>
+            <div class="inline">
+                <input id="title" type="text">
+            </div>
+        </div>
+        <div class="config-div">
+            <div class="config-label inline">
+                <label>Bot name</label>
+            </div>
+            <div class="inline">
+                <input id="botName" type="text">
+            </div>
+        </div>
+        <div class="config-div">
+            <div class="config-label inline">
+                <label>Chat URL</label>
+            </div>
+            <div class="inline">
+                <input id="chatUrl" type="text">
+            </div>
+        </div>
+        <div class="config-div">
+            <div class="config-label inline">
+                <label>CSS Class</label>
+            </div>
+            <div class="inline">
+                <input id="cssClass" type="text">
+            </div>
+        </div>
+        <div class="config-div">
+            <div class="config-label inline">
+                <label>Chat position</label>
+            </div>
+            <div class="inline">
+                <select name="" id="position">
+                    <option id="left" value="left">left</option>
+                    <option id="right" value="right">right</option>
+                </select>
+            </div>
+        </div>
+        <div class="config-div">
+            <div class="config-label inline">
+                <label>UI</label>
+            </div>
+            <div class="inline">
+                <input id="allowMinimize" type="checkbox">Allow minimize
+            </div>
+        </div>
+        <div class="config-div">
+            <div class="config-label inline">
+                <label></label>
+            </div>
+            <div class="inline">
+                <input id="allowDrag" type="checkbox">Allow drag
+            </div>
+        </div>
+        <div class="config-div">
+            <div class="config-label inline">
+                <label></label>
+            </div>
+            <div class="inline">
+                <input id="requireName" type="checkbox">Require name
+            </div>
+        </div>
+        <div class="config-div">
+            <div class="config-label inline">
+                <label></label>
+            </div>
+            <div class="inline">
+                <input id="showDateTime" type="checkbox">Show date/time
+            </div>
+        </div>
+
+        <div class="config-div">
+            <div class="config-label inline">
+                <label>Network</label>
+            </div>
+            <div class="inline">
+                <input id="XHR" type="radio" name="request">XHR
+                <input id="fetch" type="radio" name="request">fetch
+            </div>
+        </div>
+        <div class="config-div">
+            <div class="config-label inline">
+                <label>Use next code:</label>
+            </div>
+            <div class="inline"></div>
+        </div>
+        <div class="config-div">
+            <div class="config-label inline">
+                <label></label>
+            </div>
+            <div class="inline">
+                <div id="code-block"></div>
+            </div>
+        </div>
+
+    </form>
+</fieldset>
+<script src="/javascripts/chatConfig.js"></script>
+</body>
+</html>

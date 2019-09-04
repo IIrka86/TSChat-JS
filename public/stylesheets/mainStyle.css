@@ -1,0 +1,22 @@
+body div{
+    font-size: large;
+    font-weight: bold;
+    color: #4f12e2;
+}
+legend{
+    font-size: 28px;
+    font-weight: bold;
+    color: #4f12e2;
+    margin-left: 30px;
+}
+fieldset{
+    border-color: #4f12e2;
+}
+button{
+    color: white;
+    background: rgba(79, 18, 226, 0.79);
+    border: none;
+    border-radius: 5px;
+    font-size: large;
+    font-weight: bold;
+}

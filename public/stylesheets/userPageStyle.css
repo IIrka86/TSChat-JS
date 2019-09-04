@@ -1,0 +1,36 @@
+#ts-chat{
+    position: absolute;
+    /*background: rgba(100, 149, 237, 0.42);*/
+    width: 450px;
+}
+
+#chat-content{
+    width: 90%;
+    min-height: 45px;
+    /*margin-top: 390px;*/
+}
+.chat-content{
+    margin: 5px;
+ }
+.chat-content button{
+    position: absolute;
+    height: 51px;
+    padding: 0 10px;
+    margin: 0 5px;
+}
+.messages-content{
+    min-height: 350px;
+}
+#message-text{
+    width: 68%;
+    border: #4f12e2 1px solid;
+    border-radius: 3px;
+}
+#roll-up{
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    padding: 0;
+    top: 25px;
+    left: 400px;
+}

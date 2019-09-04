@@ -1,0 +1,29 @@
+#chat-config{
+    margin: 30px;
+}
+.config-div{
+    margin: 10px;
+}
+.config-label{
+    width: 15%;
+    text-align: right;
+}
+.inline{
+    display: inline-block;
+    padding: 0 10px;
+}
+input[type=text]{
+    border: none;
+    border-bottom: #4f12e2 solid 2px;
+}
+.inline p{
+    padding: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.tab{
+    margin-left: 20px;
+}
+.double-tab{
+    margin-left: 40px;
+}

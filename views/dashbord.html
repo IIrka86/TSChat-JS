@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/stylesheets/mainStyle.css">
+    <link rel="stylesheet" href="/stylesheets/dashbordStyle.css">
+    <title>Title</title>
+</head>
+<body>
+<div class="all-content">
+    <fieldset id="operator-main-fieldset">
+        <legend>Operator's dashbord</legend>
+        <div class="inline users-content">
+            <input type="search"><br>
+            <select name="sortedBy" id="sortedBy">
+                <option value="name">By name</option>
+                <option value="id">By ID</option>
+            </select>
+            <div id="users">
+
+            </div>
+        </div>
+        <div class="inline active operator-content">
+            <fieldset id="active-user" >
+                <legend id="active-legend" style="font-size: 24px">Active</legend>
+                <button id="close-active-block-btn">X</button>
+                <div class="chat-content inline">
+                    <fieldset id="chat-fieldset">
+                        <legend style="font-size: 20px">Chat</legend>
+                        <div  id="chat" class="chat">
+
+                        </div>
+                        <textarea name="" id="operator-message-text" rows="4"></textarea><br>
+                        <button id="send-message">Send</button>
+                    </fieldset>
+                </div>
+                <div class="control-content inline">
+                    <fieldset id="control-fieldset">
+                        <legend style="font-size: 20px">Control</legend>
+
+                    </fieldset>
+                </div>
+            </fieldset>
+        </div>
+    </fieldset>
+</div>
+</body>
+<script src="/javascripts/dashbord.js"></script>
+</html>
